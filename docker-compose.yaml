@@ -1,0 +1,65 @@
+version: '3'
+
+services:
+  frontend:
+    build:
+      context: './reactjs-app'
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    container_name: reactjs-app-container
+    environment:
+      - WATCHPACK_POLLING=true
+    networks:
+      - mern-stack-network
+    volumes:
+      - ./reactjs-app:/app
+    depends_on:
+      - users-ms
+
+  users-ms:
+    build:
+      context: './users'
+      dockerfile: Dockerfile
+    ports:
+      - 4000:4000
+    container_name: users-ms-container
+    networks:
+      - mern-stack-network
+    volumes:
+      - ./users:/app
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo
+
+    ports:
+      - 27017:27017
+
+    container_name: mongo-container 
+
+    networks:
+      - mern-stack-network
+
+    volumes:
+      - mongoData:/data/db
+
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root 
+      - MONGO_INITDB_ROOT_PASSWORD=secret
+      - MONGO_INITDB_DATABASE=users 
+
+networks:
+  mern-stack-network:
+
+volumes:
+  mongoData:
+
+
+
+
+
+    
+    
+    
