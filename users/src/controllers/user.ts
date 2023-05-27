@@ -1,6 +1,7 @@
 import { Request, Response, NextFunction } from "express";
 import User from "../models/user";
 import mongoose from "mongoose";
+import {ObjectId} from "mongodb";
 
 const register = (req:Request, res:Response, next:NextFunction) => {
     console.log("crating new user")
@@ -9,6 +10,7 @@ const register = (req:Request, res:Response, next:NextFunction) => {
         _id: new mongoose.Types.ObjectId(),
         firstName:firstName,
         lastName:lastName,
+        email:email,
         password:password
     })
 
@@ -29,15 +31,15 @@ const register = (req:Request, res:Response, next:NextFunction) => {
 const login = (req:Request, res:Response, next:NextFunction) => {
     console.log("logging in user...")
     let {id} = req.body;
-
-    return User.findOne({_id:id})
+    let _id = new ObjectId(id)
+    return User.findOne({_id})
         .then((user)=>{
             if(user){
                 console.log(`User ${id} found`)
                 return res.status(200).json({user})
             }else{
                 console.log(`User with this id ${id} not found, register...`)
-                return register(req, res, next);
+                return res.status(404).json({message : "User mot found with this id"})
             }
         })
         .catch((error)=>{
@@ -50,8 +52,8 @@ const login = (req:Request, res:Response, next:NextFunction) => {
 
 
 const read = (req:Request, res:Response, next:NextFunction) => {
-    const _id = req.params.userId;
-
+    const id = req.params.userId;
+    let _id = new ObjectId(id)
     console.log(`Reading user for id ${_id}`);
 
     return User.findById(_id)

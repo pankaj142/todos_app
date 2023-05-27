@@ -1,37 +1,34 @@
 
-import express,{ json } from "express";
+import express from "express";
 import router from "./routes/routes";
 import connectDB  from "./config/configDb";
 
 import dotenv from 'dotenv';
 
+// env 
 dotenv.config();
 
-// export const YOUR_ATTRIBUTE = process.env.YOUR_ATTRIBUTE!;
-
-console.log("xxxxxx", process.env.MONGODB_PASSWORD);
-
-
 const app = express();
-app.use(json());
+
+// express middleware
+app.use(express.json());
 
 // routes
 app.use(router);
 
 const PORT = process.env.PORT || 4000;
 
-//connect to db
-connectDB()
+const startServer = async () =>{
+    try{
+        //connect to db
+        await connectDB();
+        
+        app.listen(PORT, ()=>{
+            console.log(`Users service is running on port ${PORT}`)
+        })
+    }catch(error){
+        console.log(error);
+    }
+}
 
-
-app.get("/health", (req, res)=>{
-    res.sendStatus(200)
-})
-
-app.get("/api/users/currentuser", (req, res)=>{
-    res.send("Hello there...")
-})
-
-app.listen(PORT, ()=>{
-    console.log(`hh Auth service is running on port ${PORT}`)
-})
+startServer();
