@@ -1,6 +1,6 @@
 
 import express from "express";
-import router from "./routes/routes";
+import routes from "./routes/index";
 import connectDB  from "./config/configDb";
 
 import dotenv from 'dotenv';
@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json());
 
 // routes
-app.use(router);
+app.use("/api",routes);
 
 const PORT = process.env.PORT || 4001;
 

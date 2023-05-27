@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from "express";
-import Todo from "../models/todo";
+import Todo from "../../models/todo";
 import mongoose from "mongoose";
-import {ObjectId} from "mongodb";
+import { ObjectId } from "mongodb";
 
 const createTodo = (req:Request, res:Response, next:NextFunction) =>{
     try{
@@ -35,27 +35,4 @@ const createTodo = (req:Request, res:Response, next:NextFunction) =>{
     
 }
 
-const updateTodo = (req:Request, res:Response, next:NextFunction) =>{
-    let { todoId } = req.params;
-    let { text, completed } = req.body;
-
-    // check if text is to update or completed field
-    
-    // console.log(todoId,text,completed)
-    return res.status(200).json({text})
-}
-
-const getTodo = (req:Request, res:Response, next:NextFunction) =>{}
-
-const deleteTodo = (req:Request, res:Response, next:NextFunction) =>{}
-
-// get all todos of a user
-const getAllTodo = (req:Request, res:Response, next:NextFunction) =>{}
-
-export default {
-    createTodo,
-    updateTodo,
-    getTodo,
-    deleteTodo,
-    getAllTodo
-};
+export {createTodo} ;
