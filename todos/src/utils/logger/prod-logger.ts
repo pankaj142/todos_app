@@ -12,13 +12,13 @@ const prodLogger = createLogger({
   ],
   format: format.combine(
     format.timestamp({format:timeDateFormat}),
-    format.printf(({ timestamp, level, message}) => {
-      return `[${level}]  ${timestamp} ${message}`;
-    })
+    format.printf(({ timestamp, level, message, service, stack}) => {
+      return `[${level}]  ${timestamp} ${service}: ${ message}`;
+    }),
   ),
-  // defaultMeta: {
-  //   service: "Todos Service"
-  // },
+  defaultMeta: {
+    service: "Todos Service"
+  },
 });
 
 export { prodLogger }

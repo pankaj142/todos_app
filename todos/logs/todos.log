@@ -39,3 +39,163 @@
 [[32minfo[39m] 2023-05-30T20:31:33:913 : options.port should be >= 0 and < 65536. Received type number (100000000000000000000).
 [[31merror[39m] 2023-05-30T20:31:56:586 : options.port should be >= 0 and < 65536. Received type number (100000000000000000000).
 [[32minfo[39m] 2023-05-30T20:32:19:380 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T20:37:38:805 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T20:38:22:446 : Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T20:38:22:452 : etxt ddddd
+[[32minfo[39m] 2023-05-30T20:39:18:523 : Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T20:39:18:535 : etxt ddddd
+[[32minfo[39m] 2023-05-30T20:40:00:577 : Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T20:40:00:594 : Error: etxt ddddd
+    at Server.<anonymous> (D:\assignment4\todos\src\index.ts:29:26)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitListeningNT (node:net:1808:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+[[32minfo[39m] 2023-05-30T20:41:01:939 : Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T20:41:01:948 : Error: etxt ddddd
+    at Server.<anonymous> (D:\assignment4\todos\src\index.ts:29:26)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitListeningNT (node:net:1808:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+[[32minfo[39m] 2023-05-30T20:41:23:731 : Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T20:41:23:735 : Error: etxt ddddd
+    at Server.<anonymous> (D:\assignment4\todos\src\index.ts:29:26)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitListeningNT (node:net:1808:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+[[32minfo[39m] 2023-05-30T20:42:05:315 : Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T20:42:05:329 : Error: etxt ddddd
+    at Server.<anonymous> (D:\assignment4\todos\src\index.ts:29:26)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitListeningNT (node:net:1808:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+[[32minfo[39m] 2023-05-30T20:42:28:924 : Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T20:42:28:935 : Error: etxt ddddd
+    at Server.<anonymous> (D:\assignment4\todos\src\index.ts:29:26)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitListeningNT (node:net:1808:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+[[32minfo[39m] 2023-05-30T20:42:37:687 : Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T20:42:37:694 : Error: etxt ddddd
+    at Server.<anonymous> (D:\assignment4\todos\src\index.ts:29:26)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitListeningNT (node:net:1808:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+[[32minfo[39m] 2023-05-30T20:42:47:850 : Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T20:42:47:860 : Error: etxt ddddd
+    at Server.<anonymous> (D:\assignment4\todos\src\index.ts:29:26)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitListeningNT (node:net:1808:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+[[32minfo[39m] 2023-05-30T20:45:28:909 : Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T20:45:28:921 : Error: etxt ddddd
+    at Server.<anonymous> (D:\assignment4\todos\src\index.ts:29:26)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitListeningNT (node:net:1808:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+[[32minfo[39m] 2023-05-30T20:46:42:564 : Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T20:46:42:573 : Error: etxt ddddd
+    at Server.<anonymous> (D:\assignment4\todos\src\index.ts:29:26)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitListeningNT (node:net:1808:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+[info]  2023-05-30T20:46:56:140  Todo service is running on port 4001
+[error]  2023-05-30T20:46:56:146  etxt ddddd
+[info]  2023-05-30T20:47:45:136  Todos Service Todo service is running on port 4001
+[error]  2023-05-30T20:47:45:150  Todos Service etxt ddddd
+[info]  2023-05-30T20:47:54:645  Todos Service: Todo service is running on port 4001
+[error]  2023-05-30T20:47:54:650  Todos Service: etxt ddddd
+{"level":"\u001b[32minfo\u001b[39m","message":"Todo service is running on port 4001","timestamp":"2023-05-30T20:50:50:019 "}
+{"level":"\u001b[31merror\u001b[39m","message":"etxt ddddd","stack":"Error: etxt ddddd\n    at Server.<anonymous> (D:\\assignment4\\todos\\src\\index.ts:29:26)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitListeningNT (node:net:1808:10)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-05-30T20:50:50:060 "}
+{"level":"info","message":"Todo service is running on port 4001","timestamp":"2023-05-30T20:53:46:688 "}
+{"level":"error","message":"etxt ddddd","stack":"Error: etxt ddddd\n    at Server.<anonymous> (D:\\assignment4\\todos\\src\\index.ts:29:26)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitListeningNT (node:net:1808:10)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-05-30T20:53:46:703 "}
+{"level":"\u001b[32minfo\u001b[39m","message":"Todo service is running on port 4001","timestamp":"2023-05-30T20:53:57:490 "}
+{"level":"\u001b[31merror\u001b[39m","message":"etxt ddddd","stack":"Error: etxt ddddd\n    at Server.<anonymous> (D:\\assignment4\\todos\\src\\index.ts:29:26)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitListeningNT (node:net:1808:10)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-05-30T20:53:57:502 "}
+[[32minfo[39m] 2023-05-30T20:54:04:650 : Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T20:54:04:657 : Error: etxt ddddd
+    at Server.<anonymous> (D:\assignment4\todos\src\index.ts:29:26)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitListeningNT (node:net:1808:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+[[32minfo[39m] 2023-05-30T20:54:36:717 : Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T20:54:36:722 : Error: etxt ddddd
+    at Server.<anonymous> (D:\assignment4\todos\src\index.ts:29:26)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitListeningNT (node:net:1808:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+{"level":"info","message":"Todo service is running on port 4001","service":"Todos Service","timestamp":"2023-05-30T20:54:56:537 "}
+{"level":"error","service":"Todos Service","timestamp":"2023-05-30T20:54:56:542 "}
+{"level":"info","message":"Todo service is running on port 4001","service":"Todos Service","timestamp":"2023-05-30T20:57:06:986 "}
+{"level":"error","service":"Todos Service","timestamp":"2023-05-30T20:57:06:999 "}
+{"level":"info","message":"Todo service is running on port 4001","service":"Todos Service","timestamp":"2023-05-30T20:57:26:636 "}
+{"level":"error","service":"Todos Service","timestamp":"2023-05-30T20:57:26:652 "}
+{"level":"info","message":"Todo service is running on port 4001","service":"Todos Service","timestamp":"2023-05-30T20:58:28:718 "}
+{"level":"error","message":"ggggggggggggg","service":"Todos Service","timestamp":"2023-05-30T20:58:28:733 "}
+{"level":"info","message":"Todo service is running on port 4001","service":"Todos Service","timestamp":"2023-05-30T20:59:24:182 "}
+{"level":"error","message":"ggggggggggggg","service":"Todos Service","sometest":99000,"timestamp":"2023-05-30T20:59:24:198 "}
+{"level":"info","message":"Todo service is running on port 4001","service":"Todos Service","timestamp":"2023-05-30T21:00:07:775 "}
+{"level":"error","message":"ggggggggggggg","service":"Todos Service","sometest":99000,"timestamp":"2023-05-30T21:00:07:794 "}
+[info]  2023-05-30T21:00:17:433  Todos Service: Todo service is running on port 4001
+[error]  2023-05-30T21:00:17:436  Todos Service: ggggggggggggg
+{"level":"info","message":"Todo service is running on port 4001","service":"Todos Service","timestamp":"2023-05-30T21:00:31:045 "}
+{"level":"error","message":"ggggggggggggg","service":"Todos Service","sometest":99000,"timestamp":"2023-05-30T21:00:31:049 "}
+{"level":"info","message":"Todo service is running on port 4001","service":"Todos Service","timestamp":"2023-05-30T21:01:02:965 "}
+{"level":"error","message":"ggggggggggggg","service":"Todos Service","sometest":99000,"timestamp":"2023-05-30T21:01:02:975 "}
+{"level":"info","message":"Todo service is running on port 4001","service":"Todos Service","timestamp":"2023-05-30T21:01:21:761 "}
+{"level":"error","message":"ggggggggggggg","service":"Todos Service","sometest":99000,"timestamp":"2023-05-30T21:01:21:772 "}
+{"level":"info","message":"Todo service is running on port 4001","service":"Todos Service","timestamp":"2023-05-30T21:01:53:102 "}
+{"level":"error","service":"Todos Service","timestamp":"2023-05-30T21:01:53:112 "}
+{"level":"info","message":"Todo service is running on port 4001","service":"Todos Service","timestamp":"2023-05-30T21:02:29:393 "}
+{"level":"error","service":"Todos Service","timestamp":"2023-05-30T21:02:29:404 "}
+{"level":"info","message":"Todo service is running on port 4001","service":"Todos Service","timestamp":"2023-05-30T21:02:50:589 "}
+{"level":"error","message":"vvvvvvv","service":"Todos Service","stack":"Error: vvvvvvv\n    at Server.<anonymous> (D:\\assignment4\\todos\\src\\index.ts:29:26)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitListeningNT (node:net:1808:10)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-05-30T21:02:50:600 "}
+{"level":"info","message":"Todo service is running on port 4001","service":"Todos Service","timestamp":"2023-05-30T21:03:15:563 "}
+{"level":"error","service":"Todos Service","timestamp":"2023-05-30T21:03:15:581 "}
+{"level":"info","message":"Todo service is running on port 4001","service":"Todos Service","timestamp":"2023-05-30T21:03:19:858 "}
+{"level":"error","service":"Todos Service","timestamp":"2023-05-30T21:03:19:865 "}
+[info]  2023-05-30T21:03:51:461  Todos Service: Todo service is running on port 4001
+[error]  2023-05-30T21:03:51:473  Todos Service: vvvvvvv
+[[32minfo[39m] 2023-05-30T21:04:44:448 : Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T21:04:44:454 : vvvvvvv
+[[32minfo[39m] 2023-05-30T21:04:59:044 : Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T21:04:59:057 : Error: vvvvvvv
+    at Server.<anonymous> (D:\assignment4\todos\src\index.ts:29:26)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitListeningNT (node:net:1808:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+{"level":"\u001b[32minfo\u001b[39m","message":"Todo service is running on port 4001","timestamp":"2023-05-30T21:05:16:197 "}
+{"level":"\u001b[31merror\u001b[39m","message":"vvvvvvv","stack":"Error: vvvvvvv\n    at Server.<anonymous> (D:\\assignment4\\todos\\src\\index.ts:29:26)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitListeningNT (node:net:1808:10)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-05-30T21:05:16:208 "}
+{"level":"info","message":"Todo service is running on port 4001","timestamp":"2023-05-30T21:05:27:578 "}
+{"level":"error","message":"vvvvvvv","stack":"Error: vvvvvvv\n    at Server.<anonymous> (D:\\assignment4\\todos\\src\\index.ts:29:26)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitListeningNT (node:net:1808:10)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-05-30T21:05:27:585 "}
+{"level":"info","message":"Todo service is running on port 4001","timestamp":"2023-05-30T21:05:56:177 "}
+{"level":"error","message":"vvvvvvv","stack":"Error: vvvvvvv\n    at Server.<anonymous> (D:\\assignment4\\todos\\src\\index.ts:29:26)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitListeningNT (node:net:1808:10)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-05-30T21:05:56:191 "}
+{"level":"info","message":"Todo service is running on port 4001","timestamp":"2023-05-30T21:06:00:332 "}
+{"level":"error","message":"vvvvvvv","stack":"Error: vvvvvvv\n    at Server.<anonymous> (D:\\assignment4\\todos\\src\\index.ts:29:26)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitListeningNT (node:net:1808:10)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-05-30T21:06:00:338 "}
+{"level":"info","message":"Todo service is running on port 4001","timestamp":"2023-05-30T21:06:14:975 "}
+{"level":"error","message":"vvvvvvv","stack":"Error: vvvvvvv\n    at Server.<anonymous> (D:\\assignment4\\todos\\src\\index.ts:29:26)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitListeningNT (node:net:1808:10)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-05-30T21:06:14:980 "}
+{"level":"info","message":"Todo service is running on port 4001","timestamp":"2023-05-30T21:06:31:608 "}
+{"level":"error","message":"vvvvvvv","stack":"Error: vvvvvvv\n    at Server.<anonymous> (D:\\assignment4\\todos\\src\\index.ts:29:26)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitListeningNT (node:net:1808:10)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-05-30T21:06:31:616 "}
+{"level":"info","message":"Todo service is running on port 4001","timestamp":"2023-05-30T21:06:37:292 "}
+{"level":"error","message":"vvvvvvv","stack":"Error: vvvvvvv\n    at Server.<anonymous> (D:\\assignment4\\todos\\src\\index.ts:29:26)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitListeningNT (node:net:1808:10)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-05-30T21:06:37:298 "}
+{"level":"\u001b[32minfo\u001b[39m","message":"Todo service is running on port 4001","timestamp":"2023-05-30T21:07:16:920 "}
+{"level":"\u001b[31merror\u001b[39m","message":"vvvvvvv","stack":"Error: vvvvvvv\n    at Server.<anonymous> (D:\\assignment4\\todos\\src\\index.ts:29:26)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitListeningNT (node:net:1808:10)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-05-30T21:07:16:929 "}
+{"level":"info","message":"Todo service is running on port 4001","timestamp":"2023-05-30T21:07:35:402 "}
+{"level":"error","message":"vvvvvvv","stack":"Error: vvvvvvv\n    at Server.<anonymous> (D:\\assignment4\\todos\\src\\index.ts:29:26)\n    at Object.onceWrapper (node:events:626:28)\n    at Server.emit (node:events:512:28)\n    at emitListeningNT (node:net:1808:10)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-05-30T21:07:35:405 "}
+[[32minfo[39m] 2023-05-30T21:07:57:232 : Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T21:07:57:236 : Error: vvvvvvv
+    at Server.<anonymous> (D:\assignment4\todos\src\index.ts:29:26)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitListeningNT (node:net:1808:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)

@@ -13,10 +13,11 @@ const localLogger = createLogger({
   format: format.combine(
     format.timestamp({format : timeDateFormat}),
     format.colorize(),
-    format.printf(({ timestamp, level, message}) => {
-      return `[${level}] ${timestamp}: ${message}`;
-    })
-  ),
+    format.printf(({ timestamp, level, message, stack}) => {
+      return `[${level}] ${timestamp}: ${stack || message}`; // incase of error, log the comlete error stack
+    }),
+    format.errors({stack: true}), // incase of error, log the error stack as well, this is not recommendated to use in prod env
+    ),
 });
 
 export { localLogger }
