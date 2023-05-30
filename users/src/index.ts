@@ -2,6 +2,7 @@
 import express from "express";
 import router from "./routes/routes";
 import connectDB  from "./config/configDb";
+import {log} from "./utils/logger";
 
 import dotenv from 'dotenv';
 
@@ -24,10 +25,10 @@ const startServer = async () =>{
         await connectDB();
         
         app.listen(PORT, ()=>{
-            console.log(`Users service is running on port ${PORT}`)
+            log.info(`Users service is running on port ${PORT}`)
         })
     }catch(error){
-        console.log(error);
+        log.error(error);
     }
 }
 

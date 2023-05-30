@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+import { log } from "../utils/logger";
 
 dotenv.config();
 
@@ -13,11 +14,11 @@ const connectDB = async ()=> {
     await mongoose
         .connect(`mongodb+srv://${MONGODB_USER}:${MONGODB_PASSWORD}@cluster0.9dxmq5t.mongodb.net/?retryWrites=true&w=majority`)
         .then(()=>{
-            console.log('MongoDb Connected');   
+            log.info('MongoDb Connected');   
         })
         .catch((error)=>{
-            console.log('Unable to connect MongoDb');
-            console.log(error);  
+            log.info('Unable to connect MongoDb');
+            log.error(error);  
             process.exit(1);
         })
 }
