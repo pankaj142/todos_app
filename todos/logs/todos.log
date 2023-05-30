@@ -199,3 +199,74 @@
     at Server.emit (node:events:512:28)
     at emitListeningNT (node:net:1808:10)
     at processTicksAndRejections (node:internal/process/task_queues:81:21)
+[[32minfo[39m] 2023-05-30T23:20:52:633 : Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T23:20:52:637 : Error: vvvvvvv
+    at Server.<anonymous> (D:\assignment4\todos\src\index.ts:29:26)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitListeningNT (node:net:1808:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+[[32minfo[39m] 2023-05-30T23:21:42:781 : Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T23:21:42:791 : Error: vvvvvvv
+    at Server.<anonymous> (D:\assignment4\todos\src\index.ts:29:23)
+    at Object.onceWrapper (node:events:626:28)
+    at Server.emit (node:events:512:28)
+    at emitListeningNT (node:net:1808:10)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+[[32minfo[39m] 2023-05-30T23:21:52:402 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T23:22:23:096 : MongoDb Connected
+[[32minfo[39m] 2023-05-30T23:22:23:110 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T23:22:36:366 : MongoDb Connected
+[[32minfo[39m] 2023-05-30T23:22:36:372 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T23:22:45:713 : MongoDb Connected
+[[32minfo[39m] 2023-05-30T23:22:45:720 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T23:24:01:973 : MongoDb Connected
+[[32minfo[39m] 2023-05-30T23:24:01:980 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T23:24:12:935 : MongoDb Connected
+[[32minfo[39m] 2023-05-30T23:24:12:953 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T23:24:26:982 : vvvvvvvvvv
+[[32minfo[39m] 2023-05-30T23:24:29:336 : MongoDb Connected
+[[32minfo[39m] 2023-05-30T23:24:29:345 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T23:24:40:932 : vvvvvvvvvv
+[[32minfo[39m] 2023-05-30T23:24:43:189 : MongoDb Connected
+[[32minfo[39m] 2023-05-30T23:24:43:199 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T23:25:05:191 : vvvvvvvvvv
+[[32minfo[39m] 2023-05-30T23:25:07:549 : MongoDb Connected
+[[32minfo[39m] 2023-05-30T23:25:07:559 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T23:25:46:169 : vvvvvvvvvv
+[[32minfo[39m] 2023-05-30T23:25:48:432 : MongoDb Connected
+[[32minfo[39m] 2023-05-30T23:25:48:441 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T23:25:56:929 : vvvvvvvvvv
+[[32minfo[39m] 2023-05-30T23:25:59:146 : MongoDb Connected
+[[32minfo[39m] 2023-05-30T23:25:59:151 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T23:26:20:218 : vvvvvvvvvv
+[[32minfo[39m] 2023-05-30T23:26:22:496 : MongoDb Connected
+[[32minfo[39m] 2023-05-30T23:26:22:505 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T23:26:28:828 : vvvvvvvvvv
+[[32minfo[39m] 2023-05-30T23:26:31:002 : vvvvvvvvvv
+[[32minfo[39m] 2023-05-30T23:26:33:236 : MongoDb Connected
+[[32minfo[39m] 2023-05-30T23:26:33:242 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T23:26:48:810 : vvvvvvvvvv
+[[32minfo[39m] 2023-05-30T23:26:51:076 : MongoDb Connected
+[[32minfo[39m] 2023-05-30T23:26:51:082 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T23:26:54:062 : vvvvvvvvvv
+[[32minfo[39m] 2023-05-30T23:26:56:301 : MongoDb Connected
+[[32minfo[39m] 2023-05-30T23:26:56:307 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T23:27:07:041 : vvvvvvvvvv
+[[32minfo[39m] 2023-05-30T23:27:09:296 : MongoDb Connected
+[[32minfo[39m] 2023-05-30T23:27:09:302 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T23:28:09:216 : vvvvvvvvvv
+[[32minfo[39m] 2023-05-30T23:28:11:077 : vvvvvvvvvv
+[[32minfo[39m] 2023-05-30T23:28:13:266 : MongoDb Connected
+[[32minfo[39m] 2023-05-30T23:28:13:272 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T23:28:14:621 : vvvvvvvvvv
+[[32minfo[39m] 2023-05-30T23:28:17:040 : MongoDb Connected
+[[32minfo[39m] 2023-05-30T23:28:17:051 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T23:28:34:810 : vvvvvvvvvv
+[[32minfo[39m] 2023-05-30T23:28:37:063 : MongoDb Connected
+[[32minfo[39m] 2023-05-30T23:28:37:070 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T23:28:45:954 : vvvvvvvvvv
+[[32minfo[39m] 2023-05-30T23:28:48:160 : MongoDb Connected
+[[32minfo[39m] 2023-05-30T23:28:48:165 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T23:30:06:184 : MongoDb Connected
+[[32minfo[39m] 2023-05-30T23:30:06:194 : Todo service is running on port 4001

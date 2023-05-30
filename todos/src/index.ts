@@ -2,7 +2,7 @@
 import express from "express";
 import routes from "./routes/index";
 import connectDB  from "./config/configDb";
-import {logger} from "./utils/logger";
+import {log} from "./utils/logger";
 
 import dotenv from 'dotenv';
 
@@ -25,11 +25,10 @@ const startServer = async () => {
         //connect to db
         await connectDB()
         app.listen(PORT, () => {
-            logger.info(`Todo service is running on port ${PORT}`)
-            logger.error(new Error("vvvvvvv"))
+            log.info(`Todo service is running on port ${PORT}`)
         })
     }catch(error){
-        logger.error(error)
+        log.error(error)
     }
 }
 

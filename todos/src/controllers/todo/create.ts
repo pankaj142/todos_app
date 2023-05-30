@@ -2,6 +2,7 @@ import { Request, Response, NextFunction } from "express";
 import Todo from "../../models/todo";
 import mongoose from "mongoose";
 import { ObjectId } from "mongodb";
+import { log } from "../../utils/logger";
 
 const createTodo = (req:Request, res:Response, next:NextFunction) =>{
     try{
@@ -18,7 +19,7 @@ const createTodo = (req:Request, res:Response, next:NextFunction) =>{
         })
         todo.save()
             .then((newTodo)=>{
-                console.log("New todo created...");
+                log.info("New todo created...");
                 return res.status(201).json({ todo: newTodo })
             })
             .catch((error)=>{
@@ -27,7 +28,7 @@ const createTodo = (req:Request, res:Response, next:NextFunction) =>{
                 })
             })
     }catch(error){
-        console.log(error);
+        log.error(error);
         return res.status(500).json({
             error
         })
