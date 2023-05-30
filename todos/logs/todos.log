@@ -1,0 +1,41 @@
+[info]  2023-05-30T20:25:13:920   info Todo service is running on port 4001
+[error]  2023-05-30T20:25:13:932   erro Todo service is running on port 4001
+[warn]  2023-05-30T20:25:13:934   warn Todo service is running on port 4001
+[[32minfo[39m] Todos Service 2023-05-30T20:25:29:643 :  info Todo service is running on port 4001
+[[31merror[39m] Todos Service 2023-05-30T20:25:29:648 :  erro Todo service is running on port 4001
+[[33mwarn[39m] Todos Service 2023-05-30T20:25:29:649 :  warn Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T20:25:51:977 :  info Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T20:25:51:994 :  erro Todo service is running on port 4001
+[[33mwarn[39m] 2023-05-30T20:25:51:999 :  warn Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T20:26:22:951 :  info Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T20:26:22:959 :  erro Todo service is running on port 4001
+[[33mwarn[39m] 2023-05-30T20:26:22:960 :  warn Todo service is running on port 4001
+[32minfo[39m Todos Service [2023-05-30T20:26:58:261 ]:  info Todo service is running on port 4001
+[31merror[39m Todos Service [2023-05-30T20:26:58:272 ]:  erro Todo service is running on port 4001
+[34mdebug[39m Todos Service [2023-05-30T20:26:58:273 ]:  debug Todo service is running on port 4001
+[33mwarn[39m Todos Service [2023-05-30T20:26:58:274 ]:  warn Todo service is running on port 4001
+[32minfo[39m  [2023-05-30T20:27:15:407 ]:  info Todo service is running on port 4001
+[31merror[39m  [2023-05-30T20:27:15:417 ]:  erro Todo service is running on port 4001
+[34mdebug[39m  [2023-05-30T20:27:15:419 ]:  debug Todo service is running on port 4001
+[33mwarn[39m  [2023-05-30T20:27:15:419 ]:  warn Todo service is running on port 4001
+[32minfo[39m [2023-05-30T20:27:22:273 ]:  info Todo service is running on port 4001
+[31merror[39m [2023-05-30T20:27:22:282 ]:  erro Todo service is running on port 4001
+[34mdebug[39m [2023-05-30T20:27:22:284 ]:  debug Todo service is running on port 4001
+[33mwarn[39m [2023-05-30T20:27:22:285 ]:  warn Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T20:27:42:557 :  info Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T20:27:42:569 :  erro Todo service is running on port 4001
+[[34mdebug[39m] 2023-05-30T20:27:42:569 :  debug Todo service is running on port 4001
+[[33mwarn[39m] 2023-05-30T20:27:42:570 :  warn Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T20:29:07:519 :  info Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T20:29:07:525 :  erro Todo service is running on port 4001
+[[34mdebug[39m] 2023-05-30T20:29:07:526 :  debug Todo service is running on port 4001
+[[33mwarn[39m] 2023-05-30T20:29:07:529 :  warn Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T20:30:40:953 :  info Todo service is running on port 4001
+[[31merror[39m] 2023-05-30T20:30:40:966 :  erro Todo service is running on port 4001
+[[34mdebug[39m] 2023-05-30T20:30:40:968 :  debug Todo service is running on port 4001
+[[33mwarn[39m] 2023-05-30T20:30:40:969 :  warn Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T20:31:00:150 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T20:31:23:010 : Todo service is running on port 4001
+[[32minfo[39m] 2023-05-30T20:31:33:913 : options.port should be >= 0 and < 65536. Received type number (100000000000000000000).
+[[31merror[39m] 2023-05-30T20:31:56:586 : options.port should be >= 0 and < 65536. Received type number (100000000000000000000).
+[[32minfo[39m] 2023-05-30T20:32:19:380 : Todo service is running on port 4001

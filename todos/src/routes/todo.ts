@@ -9,7 +9,6 @@ import { health } from "../controllers/todo/health";
 
 const routesTodo = express.Router();
 
-routesTodo.get("/health", health);
 
 // todo create
 routesTodo.post("/", createTodo);
@@ -26,5 +25,6 @@ routesTodo.patch("/:todoId", updateTodo);
 // todo delete
 routesTodo.delete("/:todoId", deleteTodo);
 
+routesTodo.get("/health", health);
 
 export  {routesTodo};

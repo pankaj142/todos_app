@@ -15,6 +15,7 @@
     "install": "^0.13.0",
     "mongoose": "^7.2.1",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "winston": "^3.9.0"
   }
 }
